@@ -1,4 +1,5 @@
-### Hello 🦋
+Hello 🐛
+-
 
 ```
 const me = {
@@ -15,8 +16,8 @@ const me = {
         name: 'Rubiks Cube solver',
         url: 'https://github.com/plepisnew/learn-js/wiki/Rubiks',
     },
-    makeFood: () => {
-        
+    makeFood: (food) => {
+        return food + Foods.Ketchup;
     },
 }
 ```
