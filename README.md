@@ -14,7 +14,7 @@ const me = {
     ],
     workingOn: {
         name: 'Rubiks Cube solver',
-        url: '[https://github.com/plepisnew/learn-js/wiki/Rubiks](https://github.com/plepisnew/learn-js/wiki/Rubiks-Cube-Solver)',
+        url: 'https://github.com/plepisnew/learn-js/wiki/Rubiks-Cube-Solver',
     },
     makeFood: (food) => {
         return food + Foods.Ketchup;
