@@ -1,23 +1,23 @@
-Hello 🐛
+`plepis_new.ts` 🦋
 -
 
-```
-const me = {
-    name: 'Ansis',
-    from: 'Latvia',
-    livesIn: 'Sweden',
-    hobbies: [
-        'Mathematics',
-        'Theoretical Physics',
-        'Web Development',
-        'Speedcubing',
-    ],
-    workingOn: {
-        name: 'Rubiks Cube solver',
-        url: 'https://github.com/plepisnew/learn-js/wiki/Rubiks-Cube-Solver',
-    },
-    makeFood: (food) => {
-        return food + Foods.Ketchup;
-    },
-}
+```ts
+/** @type {import('utils').User} */
+export const me = {
+  name: "Ansis",
+  from: "Latvia",
+  livesIn: "Sweden",
+  hobbies: [
+    "Mathematics",
+    "Theoretical Physics",
+    "Web Development",
+    "Speedcubing",
+  ],
+  workingOn: {
+    name: "Pogulum",
+    repo: "https://github.com/plepisnew/pogulum_next",
+    url: "https://pogulum-next.vercel.app",
+  },
+  mood: () => Math.random() > 0.15 ? "good" : "mid",
+};
 ```
