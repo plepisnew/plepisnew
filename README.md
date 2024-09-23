@@ -6,11 +6,12 @@
 export const me = {
   name: "Ansis",
   from: "Latvia",
-  livesIn: "Sweden",
+  livesIn: "Latvia",
   hobbies: [
     "Mathematics",
     "Theoretical Physics",
     "Web Development",
+    "Identity and Access Management",
     "Speedcubing",
   ],
   workingOn: {
